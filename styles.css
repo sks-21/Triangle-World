@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+:root {
+  /* --primary-color: #afb42b; */
+  --primary-color: #9e9d24;
+  /* --gray-header: #6b7280; */
+  --secondary-color: 
+  #afb42b;
+  --off-white: #eff6ff;
+  --gray: #424242;
+}
+
+body {
+  margin: 0rem;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+}
+
+nav {
+  background-color: var(--primary-color);
+  padding: 1rem 5rem 1rem 2rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.nav-heading {
+  font-size: 1.5rem;
+  color: var(--gray);
+  font-weight: bold;
+}
+
+nav ul {
+  text-align: right;
+}
+
+nav a {
+  /* color: white; */
+  color: var(--gray);
+}
+
+.list-item-inline {
+  list-style: none;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.link-no-decoration {
+  text-decoration: none;
+}
+
+.link-active {
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: black;
+  font-weight: bold;
+  /* font-size: 1.1rem; */
+}
+
+/* Container */
+.div-container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 1rem;
+  /* height: 100vh; */
+  padding-top: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 0rem;
+  padding-top: 0.5rem;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+
+/* Input */
+input {
+  font-size: 0.8rem;
+  padding: 1rem;
+  border: 1px solid;
+  border-radius: 8px;
+  background-color: #f0f4c3;
+}
+
+.input-firstangle {
+  margin-left: 3.2rem;
+}
+
+.input-secondangle {
+  margin-left: 1rem;
+}
+
+.input-thirdangle {
+  margin-left: 2.5rem;
+}
+
+/* label */
+label {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+/* Button */
+button {
+  margin: 1.5rem;
+  font-size: 0.9em;
+  border-style: none;
+  padding: 1em 2em;
+  border-radius: 30px;
+  cursor: pointer;
+  color: white;
+  background-color: var(--primary-color);
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+  color: var(--gray);
+}
+
+button:active {
+  background-color: var(--primary-color);
+  transform: translateY(2px);
+  transition: 0.2s;
+  box-shadow: 2px 4px;
+}
+
+/* output */
+.div-output {
+  font-weight: bold;
+  padding: 1em;
+  min-height: 90px;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  padding: 1em 0em;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 0.2rem;
+  border-top-left-radius: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* color: white; */
+  color: var(--gray);
+}
+
+.footer-heading {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+footer ul {
+  padding-inline-start: 0px;
+  list-style: none;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer a {
+  padding: 1rem;
+  /* color: white; */
+  color: var(--gray);
+  text-decoration: none;
+}
+
+footer a:hover {
+  font-weight: bold;
+  color: black;
+  transition: 0.2s;
+  font-size: 1.1rem;
+}
+
+/* Area of Triangle page */
+
+.input-firstside{
+margin-left:3.5rem;
+}
+
+.input-secondside{
+  margin-left:1rem;
+
+}
+
+.input-thirdside{
+  margin-left:3rem;
+
+}
+
+/* Hypotenuse page  */
+.hypotenuse-heading{
+  margin-top: 2rem;
+}
+.input-base{
+  margin-left: 2.2rem;
+}
+
+.input-height{
+  margin-left: 1.1rem;
+}
