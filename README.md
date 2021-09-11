@@ -1,2 +1,4 @@
 # Triangle-World
- A vanillaJS app to know more about triangles
+Do you know all about triangles?  
+Check this app to find out!  
+Play some intersting games and quizzes too.
