@@ -4,8 +4,7 @@
   /* --primary-color: #afb42b; */
   --primary-color: #9e9d24;
   /* --gray-header: #6b7280; */
-  --secondary-color: 
-  #afb42b;
+  --secondary-color: #afb42b;
   --off-white: #eff6ff;
   --gray: #424242;
 }
@@ -13,7 +12,6 @@
 body {
   margin: 0rem;
   font-family: "Montserrat", sans-serif;
-  overflow: hidden;
 }
 
 nav {
@@ -136,7 +134,6 @@ button:active {
   border-radius: 8px;
 }
 
-
 /* Footer */
 footer {
   background-color: var(--primary-color);
@@ -146,8 +143,6 @@ footer {
   border-top-left-radius: 2rem;
   text-align: center;
   margin-top: 1rem;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   /* color: white; */
   color: var(--gray);
@@ -183,28 +178,45 @@ footer a:hover {
 
 /* Area of Triangle page */
 
-.input-firstside{
-margin-left:3.5rem;
+.input-firstside {
+  margin-left: 3.5rem;
 }
 
-.input-secondside{
-  margin-left:1rem;
-
+.input-secondside {
+  margin-left: 1rem;
 }
 
-.input-thirdside{
-  margin-left:3rem;
-
+.input-thirdside {
+  margin-left: 3rem;
 }
 
 /* Hypotenuse page  */
-.hypotenuse-heading{
+.hypotenuse-heading {
   margin-top: 2rem;
 }
-.input-base{
+.input-base {
   margin-left: 2.2rem;
 }
 
-.input-height{
+.input-height {
   margin-left: 1.1rem;
+}
+
+/* Quiz page */
+form {
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+form div {
+  margin-top: 2rem;
+}
+
+form div p {
+  font-weight: bold;
+}
+form div label {
+  font-size: 1rem;
+  cursor: pointer;
 }
