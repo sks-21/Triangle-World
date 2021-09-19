@@ -14,7 +14,7 @@ calcBtn.addEventListener("click", () => {
   if (base < 0 || height < 0) {
     msg = "Values can not be -ve";
   } else if (!base || !height) {
-    msg = "Enter value of all sides !";
+    msg = "Invalid inputs";
   } else {
     let ans = Math.sqrt(base * base + height * height);
     msg = `The hypotenuse of the triangle is ${ans.toFixed(4)} units`;
