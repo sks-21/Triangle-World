@@ -11,7 +11,9 @@ calcBtn.addEventListener("click", () => {
   let base = parseInt(input1.value);
   let height = parseInt(input2.value);
 
-  if (!base || !height) {
+  if (base < 0 || height < 0) {
+    msg = "Values can not be -ve";
+  } else if (!base || !height) {
     msg = "Enter value of all sides !";
   } else {
     let ans = Math.sqrt(base * base + height * height);

@@ -12,10 +12,11 @@ calcBtn.addEventListener("click", () => {
   let val2 = parseInt(input2.value);
   let val3 = parseInt(input3.value);
 
-  if (! val1 || !val2 || !val3) {
-    msg = "Enter value of all sides !";
-  } 
-  else {
+  if (val1 < 0 || val2 < 0 || val3 < 0) {
+    msg = "Value of lengths can not be -ve";
+  } else if (!val1 || !val2 || !val3) {
+    msg = "Invalid Inputs";
+  } else {
     let s = (val1 + val2 + val3) / 2;
     let prod = s * (s - val1) * (s - val2) * (s - val3);
 
